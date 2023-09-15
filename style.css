@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar */
+
+header {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-photo {
+    width: 100%;
+}
+
+.top-navigation {
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+}
+
+.logo-and-name-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #2B89C3;
+    margin: 5px;
+}
+
+.brand-logo {
+    width: 70px;
+}
+
+.nav-tabs {
+    width: 400px;
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li, a {
+    color: #2B89C3;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000C1F;
+}
+
+.right-side {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2B89C3;
+    margin-right: 20px;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.slogan {
+    font-size: 85px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
